@@ -1,0 +1,44 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url(https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.jpg?s=612x612&w=0&k=20&c=l15OdMWjgCKycMMShP8UK94ELVlEGvt7GmB_esHWPYE=);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 30px;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+a {
+  color: antiquewhite;
+}
